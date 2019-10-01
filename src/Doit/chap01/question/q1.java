@@ -41,6 +41,15 @@ public class q1 {
         return min;
     }
 
+    static int center(int a, int b, int c) {
+        int center = a;
+        if(b >= center)
+            if(center > c) {
+                return center;
+            }
+        return center;
+    }
+
     public static void main(String[] args) {
         int max = max4(4, 6, 3, 1);
         System.out.println(max);
